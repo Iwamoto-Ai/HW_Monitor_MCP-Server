@@ -1,4 +1,4 @@
-# PC System Monitor MCP-Server    by.Iwamoto
+# PC Hardware Monitor MCP-Server    by.Iwamoto
 
 CPU温度・負荷率・メモリ・ディスク・ネットワークをClaudeから監視できるMCPサーバーです。
 
