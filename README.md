@@ -1,6 +1,6 @@
 # PC Hardware Monitor MCP-Server 
 
-CPU温度・負荷率・メモリ・ディスク・ネットワークをClaudeから監視できるMCPサーバーです。　　by.Iwamoto
+Claude Desktop から自然言語でPCの CPU温度・負荷率・メモリ・ディスク・ネットワークの状態を確認や監視できるシンプルな MCPサーバーです。　　by.Iwamoto
 
 ---
 
