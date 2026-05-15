@@ -5,8 +5,7 @@ AIチャットアプリ Claude Desktop, Copilot Desktop から自然言語でPC�
 例、「今のCPU温度と使用率を教えて」 「メモリの使用状況はどうなってる？」 など
 
 
-※ Claude Desktop は Windows版アプリ、macOS版アプリでのみ使用できます。 その他のブラウザ版・スマホ版などは使えません。
-　　( https://claude.com/ja/download )　
+※ Claude Desktop は Windows版アプリ、macOS版アプリでのみ使用できます。(https://claude.com/ja/download) その他のブラウザ版・スマホ版などは使えません。
 　
 ※ Copilot Desktop は Windows11付属のローカル動作版でのみ使用できます。　その他のブラウザ版・スマホ版・クラウド版は使えません。
 
