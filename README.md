@@ -1,6 +1,12 @@
 # PC Hardware Monitor MCP-Server 
 
-Claude Desktop から自然言語でPCの CPU温度・負荷率・メモリ・ディスク・ネットワークの状態を確認や監視できるシンプルな MCPサーバーです。　　by.Iwamoto
+AIチャットアプリ Claude Desktop, Copilot Desktop から自然言語でPCの CPU温度・負荷率・メモリ・ディスク・ネットの状態を確認できるMCP-Serverです。　by.Iwamoto
+
+例、「今のCPU温度と使用率を教えて」 「メモリの使用状況はどうなってる？」 など
+
+※ Claude Desktop は Windows版アプリ、macOS版アプリでのみ使用できます。 その他のブラウザ版・スマホ版などは使えません。
+　　( https://claude.com/ja/download )
+※ Copilot Desktop は Windows11付属のローカル動作版でのみ使用できます。　その他のブラウザ版・スマホ版・クラウド版は使えません。
 
 ---
 
@@ -14,14 +20,18 @@ pip install wmi
 
 # macOSの場合（CPU温度取得に必要）
 brew install osx-cpu-temp
+
+# server.py をローカルディスクへコピー
+
 ```
 
 ---
 
-## Claude Desktopへの登録
+## 設定ファイルへの登録
 
-`~/Library/Application Support/Claude/claude_desktop_config.json`（macOS）  
-`%APPDATA%\Claude\claude_desktop_config.json`（Windows）を編集：
+`~/Library/Application Support/Claude/claude_desktop_config.json`（macOS版 Claude Desktop の場合）  
+`%APPDATA%\Claude\claude_desktop_config.json`（Windows版 Claude Desktop の場合）
+`$env:USERPROFILE\.copilot\servers.json`（Windows11付属のローカル動作版 Copilot Desktop の場合）
 
 ```json
 {
@@ -34,7 +44,9 @@ brew install osx-cpu-temp
 }
 ```
 
-パスは `server.py` の実際の絶対パスに変更してください。
+※ パスは `server.py` の実際の絶対パスに変更してください。
+※ 設定を反映にするため、アプリの再起動が必要です。
+
 
 ---
 
@@ -52,7 +64,7 @@ brew install osx-cpu-temp
 
 ---
 
-## Claudeへの質問例
+## プロンプトの例
 
 - 「今のCPU温度と使用率を教えて」
 - 「メモリの使用状況はどうなってる？」
