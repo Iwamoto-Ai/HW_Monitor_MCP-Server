@@ -8,8 +8,8 @@ AIチャットアプリ Claude Desktop, Copilot Desktop から自然言語でPC�
 - Claude Desktop は Windows版アプリ、macOS版アプリ でのみ使用できます。 その他のブラウザ版・スマホ版などは使えません。
 　 (https://claude.com/ja/download)
   
-- Copilot Desktop は Windows11付属のローカル動作版でのみ使用できます。　その他のブラウザ版・スマホ版・クラウド版は使えません。
-　　(https://apps.microsoft.com/detail/xp9cxngppj97xx?hl=ja-JP&gl=JP)
+- Copilot Desktop は Windows11pro付属のローカル動作版でのみ使用できます。　Windows11Home版、その他のブラウザ版・スマホ版・クラウド版は使えません。
+
 
 ---
 
@@ -34,7 +34,7 @@ brew install osx-cpu-temp
 
 `~/Library/Application Support/Claude/claude_desktop_config.json`（macOS版 Claude Desktop の場合）  
 `%APPDATA%\Claude\claude_desktop_config.json`（Windows版 Claude Desktop の場合）
-`$env:USERPROFILE\.copilot\servers.json`（Windows11付属のローカル動作版 Copilot Desktop の場合）
+`$env:USERPROFILE\.copilot\servers.json`（Windows11pro付属のローカル動作版 Copilot Desktop の場合）
 
 ```json
 {
