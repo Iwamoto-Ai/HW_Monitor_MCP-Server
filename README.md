@@ -6,8 +6,8 @@ AIチャットアプリ Claude Desktop, Copilot Desktop から自然言語でPC�
 
 
 ※ Claude Desktop は Windows版アプリ、macOS版アプリでのみ使用できます。 その他のブラウザ版・スマホ版などは使えません。
-　　( https://claude.com/ja/download )
-
+　　( https://claude.com/ja/download )　
+　
 ※ Copilot Desktop は Windows11付属のローカル動作版でのみ使用できます。　その他のブラウザ版・スマホ版・クラウド版は使えません。
 
 
