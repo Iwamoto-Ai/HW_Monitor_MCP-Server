@@ -5,7 +5,7 @@ AIチャットアプリ Claude Desktop から自然言語でPCの CPU温度・�
 例、「今のCPU温度と使用率を教えて」 「メモリの使用状況はどうなってる？」 など
 
 
-- Claude Desktop は Windows版アプリ、macOS版アプリ でのみ使用できます。 その他のブラウザ版・スマホ版などは使えません。
+- Claude Desktop は Windows版アプリ、macOS版アプリ でのみ使用できます。 その他のブラウザ版・スマホ版などでは使えません。
 　 (https://claude.com/ja/download)
   
 - Copilot Desktop は Windows11pro付属 ローカル動作版でのみMCPが使用できるようですが非推奨。たぶん今後廃止になると思います。　
@@ -33,9 +33,9 @@ brew install osx-cpu-temp
 
 ## 設定ファイルへの登録
 
-`~/Library/Application Support/Claude/claude_desktop_config.json`（macOS版 Claude Desktop の場合）  
-`%APPDATA%\Claude\claude_desktop_config.json`（Windows版 Claude Desktop の場合）
-`$env:USERPROFILE\.copilot\servers.json`（Windows11pro付属のローカル動作版 Copilot Desktop の場合（非推奨））
+- `~/Library/Application Support/Claude/claude_desktop_config.json`（macOS版 Claude Desktop の場合）  
+- `%APPDATA%\Claude\claude_desktop_config.json`（Windows版 Claude Desktop の場合）
+- `$env:USERPROFILE\.copilot\servers.json`（Windows11pro付属のローカル動作版 Copilot Desktop の場合（非推奨））
 
 ```json
 {
