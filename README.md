@@ -5,11 +5,13 @@ AIチャットアプリ Claude Desktop から自然言語でPCの CPU・メモ�
 例、「CPUの状態を教えて」 「メモリの使用状況はどうなってる？」 など
 
 
+
+
 > **⚠️ 注意**
 - Claude Desktop は Windows版アプリ、macOS版アプリ でのみ使用できます。 その他のブラウザ版・スマホ版などでは使えません。
 　 (https://claude.com/ja/download)
   
-- Copilot Desktop は Windows11pro付属 ローカル動作版でのみMCPが使用できるようですが非推奨。たぶん廃止になると思います。　
+- Copilot Desktop は Windows11pro付属 ローカル動作版でのみMCPが使用できるようですが非推奨。廃止になるらしいです。　
   以前は Windows11Home付属 ローカル動作版があったが廃止されたようです。
 
 - Windowsの WMIC コマンド は間もなく廃止されるようです。
