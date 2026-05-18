@@ -92,12 +92,13 @@ brew install osx-cpu-temp
 
 温度センサーが利用できない環境では、温度以外のメトリクスは正常に取得できます。
 
-
 ---
 
-
+📄 ライセンス
+Apache License Version 2.0 - 詳細は LICENSE を参照
 Copyright 2026　岩本 剛　All rights reserved.
 
+---
 
 ---
 
