@@ -1,16 +1,18 @@
 # PC Hardware Monitor MCP-Server 
 
-AIチャットアプリ Claude Desktop から自然言語でPCの CPU温度・負荷率・メモリ・ディスク・ネットの状態を確認できるMCP-Serverです。　by.Iwamoto
+AIチャットアプリ Claude Desktop から自然言語でPCの CPU・メモリ・ディスク・ネットの状態を確認できるMCP-Serverです。
 
-例、「今のCPU温度と使用率を教えて」 「メモリの使用状況はどうなってる？」 など
+例、「CPUの状態を教えて」 「メモリの使用状況はどうなってる？」 など
 
 
+> **⚠️ 注意**
 - Claude Desktop は Windows版アプリ、macOS版アプリ でのみ使用できます。 その他のブラウザ版・スマホ版などでは使えません。
 　 (https://claude.com/ja/download)
   
-- Copilot Desktop は Windows11pro付属 ローカル動作版でのみMCPが使用できるようですが非推奨。たぶん今後廃止になると思います。　
+- Copilot Desktop は Windows11pro付属 ローカル動作版でのみMCPが使用できるようですが非推奨。たぶん廃止になると思います。　
   以前は Windows11Home付属 ローカル動作版があったが廃止されたようです。
 
+- Windowsの WMIC コマンド は間もなく廃止されるようです。
 
 ---
 
@@ -70,7 +72,7 @@ brew install osx-cpu-temp
 
 ## プロンプトの例
 
-- 「今のCPU温度と使用率を教えて」
+- 「今のCPUの状況を教えて」
 - 「メモリの使用状況はどうなってる？」
 - 「CPU使用率が高いプロセスTOP5を見せて」
 - 「ディスクの空き容量はどれくらい？」
@@ -88,4 +90,12 @@ brew install osx-cpu-temp
 
 温度センサーが利用できない環境では、温度以外のメトリクスは正常に取得できます。
 
+
+---
+
+
+Copyright 2026　岩本 剛　All rights reserved.
+
+
+---
 
