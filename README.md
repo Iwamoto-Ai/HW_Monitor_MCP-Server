@@ -18,8 +18,9 @@ AIチャットアプリ Claude Desktop から自然言語でPCの CPU・メモ�
 
 
 - 1から作り直しました！！　（こちらはシンプル版として置いておきます。。。）
-  Claude Desktopだけでなく、🦞OpenClawでも使えるようにし、外出先から自然言語でPCの状況を確認できます。　
-　　 https://github.com/Iwamoto-Ai/pc-system-info-mcp
+  Claude Desktopだけでなく、🦞OpenClawでも使えるようにし、　
+  外出先からLineやDiscodeを使い自然言語でPCの状況を確認できます。　　
+　 https://github.com/Iwamoto-Ai/pc-system-info-mcp
 
 
 ---
