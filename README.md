@@ -1,11 +1,10 @@
 # PC Hardware Monitor MCP-Server 
 
-[![License] Apache-2.0 (https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 AIチャットアプリ Claude Desktop から自然言語でPCの CPU・メモリ・ディスク・ネットの状態を確認できるMCP-Serverです。
 
 例、「CPUの状態を教えて」 「メモリの使用状況はどうなってる？」 など
-
 
 
 
