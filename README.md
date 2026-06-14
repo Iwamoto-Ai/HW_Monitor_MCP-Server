@@ -1,8 +1,10 @@
 # PC Hardware Monitor MCP-Server 
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue.svg)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20WSL2-blue.svg)](https://github.com/Iwamoto-Ai/pc-system-info-mcp)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
+
 
 AIチャットアプリ Claude Desktop から自然言語でPCの CPU・メモリ・ディスク・ネットの状態を確認できるMCP-Serverです。
 
